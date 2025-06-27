@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+}
+
+/*Header section with logo and navigation bar*/
+
+.header {
+    display: inline-flex;
+    width: 100%;
+    height: 60px;
+    background-color: #d2bd93;
+    flex-shrink: 1;
+    justify-content: space-between;
+    border-bottom: 2px solid #612f0a;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    min-width: 150px;
+}
+
+.logo img {
+    width: 70px;
+    height: 50px;
+}
+
+#name {
+    color: #612f0a;
+    width: fit-content;
+}
+.navbar ul{
+    display: inline-flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navbar li {
+    width: 115px;
+    height: 60px;
+    align-content: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    text-align: center;
+    color: #612f0a;
+    padding: 0 5px
+}
+
+.navbar li:hover {
+    background-color: #a9905f;
+    transition: background-color 1s ease-in;
+}
+
+/*Banner section with photo and comapny mission*/
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 270px;
+    background-image: url(../BareSoul/resources/Banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannertext {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(169, 144, 95, 0.7);
+;
+}
+
+
+
+
+
