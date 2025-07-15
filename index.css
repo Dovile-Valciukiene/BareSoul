@@ -238,3 +238,22 @@ footer {
         justify-content: center;
     }
 }
+
+
+
+
+/*Experiences styling*/
+
+ul.breadcrumbs {
+    margin-top: 61px;
+    list-style: none;
+}
+
+ul.breadcrumbs li {
+    display: inline-block;
+}
+
+ul.breadcrumbs li+li:before {
+    padding: 8px;
+    content: '/';
+}
